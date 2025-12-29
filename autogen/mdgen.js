@@ -41,6 +41,7 @@ for (const xmlFile of xmlFiles) {
     let mdPath = path.join(mdAPIPath, className + ".md")
     let mk = ""
     const iconPath = path.join(iconDataPath, c.Name + ".svg")
+    const emojiExists = fs.existsSync(iconPath)
 
     function appendLine(str) {
         mk += str + "\n"
@@ -49,14 +50,18 @@ for (const xmlFile of xmlFiles) {
     appendLine("---")
     appendLine("title: " + c.Name)
     appendLine("description:")
-    if (fs.existsSync(iconPath)) {
+    if (emojiExists) {
         appendLine("icon: polytoria/" + c.Name)
     } else {
         appendLine("icon: polytoria/Unknown")
     }
     appendLine("---")
     appendLine("")
-    appendLine("# " + c.Name)
+    if (emojiExists) {
+        appendLine(`# :polytoria-${c.Name}: ` + c.Name)
+    } else {
+        appendLine("# " + c.Name)
+    }
 
     if (c.BaseType) {
         appendLine("")
