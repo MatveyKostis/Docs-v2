@@ -13,5 +13,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>ColorValue is a ValueBase that stores a color.</Description>
+  <Description>ColorValue is an object that holds a Color value.</Description>
 </ClassDef>
