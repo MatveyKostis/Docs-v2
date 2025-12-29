@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Indicates the center point of the bounds.</Description>
   </Properties>
   <Properties>
     <Name>Size</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the size of the bounds.</Description>
   </Properties>
   <Properties>
     <Name>Extents</Name>
@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Indicates the extents of the bounds.</Description>
   </Properties>
   <Properties>
     <Name>Start</Name>
@@ -48,7 +48,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Indicates the volume of the bounds.</Description>
   </Properties>
   <Methods>
     <Name>New</Name>
@@ -56,7 +56,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Creates a new Bounds object.</Description>
   </Methods>
   <Methods>
     <Name>New</Name>
@@ -76,7 +76,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Creates a new Bounds object with the specified position and size.</Description>
   </Methods>
   <Methods>
     <Name>ClosestPoint</Name>
@@ -96,7 +96,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Calculates the closest point on the bounds to the specified point.</Description>
   </Methods>
   <Methods>
     <Name>Contains</Name>
@@ -116,7 +116,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Returns whether the bounds contain the specified point.</Description>
   </Methods>
   <Methods>
     <Name>Encapsulate</Name>
@@ -136,7 +136,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Expands the bounds by the specified amount.</Description>
   </Methods>
   <Methods>
     <Name>Expand</Name>
@@ -156,7 +156,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Expands the bounds by the specified amount.</Description>
   </Methods>
   <Methods>
     <Name>Intersects</Name>
@@ -176,7 +176,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the bounds intersect with another bounds.</Description>
   </Methods>
   <Methods>
     <Name>SetMinMax</Name>
@@ -202,7 +202,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Sets the minimum and maximum points of the bounds.</Description>
   </Methods>
   <Methods>
     <Name>Distance</Name>
@@ -222,7 +222,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Calculates the distance from the bounds to the specified point.</Description>
   </Methods>
   <Methods>
     <Name>SqrDistance</Name>
@@ -242,10 +242,10 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Calculates the squared distance from the bounds to the specified point.</Description>
   </Methods>
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Represents a bounding box in 3D space.</Description>
 </ClassDef>

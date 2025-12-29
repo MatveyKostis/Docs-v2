@@ -56,7 +56,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Sets the color at the specified point in the color series.</Description>
   </Methods>
   <Methods>
     <Name>RemovePoint</Name>
@@ -70,7 +70,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Removes the point at the specified index from the color series.</Description>
   </Methods>
   <Methods>
     <Name>SetOffset</Name>
@@ -90,7 +90,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Sets the offset at the specified point in the color series.</Description>
   </Methods>
   <Methods>
     <Name>GetColor</Name>
@@ -104,7 +104,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Gets the color at the specified point in the color series.</Description>
   </Methods>
   <Methods>
     <Name>GetOffset</Name>
@@ -118,7 +118,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Gets the offset at the specified point in the color series.</Description>
   </Methods>
   <Methods>
     <Name>Lerp</Name>
@@ -132,7 +132,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Interpolates between colors in the series based on the parameter t.</Description>
   </Methods>
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
