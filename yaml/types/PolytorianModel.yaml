@@ -131,6 +131,10 @@ Methods:
         Type: number
         IsOptional: false
         DefaultValue: ""
+      - Name: loadTool
+        Type: boolean
+        IsOptional: true
+        DefaultValue: "True"
     IsAsync: false
     IsObsolete: false
     IsStatic: false

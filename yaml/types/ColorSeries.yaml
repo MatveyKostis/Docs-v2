@@ -64,6 +64,20 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Removes the point at the specified index from the color series.
+  - Name: GetOffsets
+    ReturnType: table
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: GetColors
+    ReturnType: table
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: SetOffset
     ReturnType: nil
     Parameters:
@@ -101,6 +115,21 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Gets the offset at the specified point in the color series.
+  - Name: AddPoint
+    ReturnType: number
+    Parameters:
+      - Name: offset
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+      - Name: color
+        Type: Color
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: Lerp
     ReturnType: Color
     Parameters:

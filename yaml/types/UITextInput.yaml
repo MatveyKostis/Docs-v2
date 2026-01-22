@@ -90,6 +90,12 @@ Events:
       Name: text
       Type: string
     Description: Fires when user changed the text
+  - Name: FocusEnter
+    Arguments: ""
+    Description: Missing Documentation
+  - Name: FocusExit
+    Arguments: ""
+    Description: Missing Documentation
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: true

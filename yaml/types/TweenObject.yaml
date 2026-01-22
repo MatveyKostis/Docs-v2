@@ -210,6 +210,29 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Tweens a Vector3 between two specified values.
+  - Name: TweenQuaternion
+    ReturnType: nil
+    Parameters:
+      - Name: from
+        Type: Quaternion
+        IsOptional: false
+        DefaultValue: ""
+      - Name: to
+        Type: Quaternion
+        IsOptional: false
+        DefaultValue: ""
+      - Name: time
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+      - Name: callback
+        Type: function
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: Play
     ReturnType: nil
     Parameters: []

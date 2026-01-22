@@ -2,6 +2,46 @@ Name: ScriptSharedTable
 BaseType: null
 Properties: []
 Methods:
+  - Name: Clear
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: Remove
+    ReturnType: nil
+    Parameters:
+      - Name: key
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: ClearPrefix
+    ReturnType: nil
+    Parameters:
+      - Name: prefix
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: ClearSuffix
+    ReturnType: nil
+    Parameters:
+      - Name: suffix
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: __index
     ReturnType: any
     Parameters:

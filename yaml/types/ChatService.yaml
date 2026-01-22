@@ -1,6 +1,13 @@
 Name: ChatService
 BaseType: Instance
-Properties: []
+Properties:
+  - Name: ChatPredicate
+    Type: function
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Methods:
   - Name: BroadcastMessage
     ReturnType: nil
@@ -42,6 +49,9 @@ Events:
       Type: string
     Description: Fires when new message has been received from either
       `BroadcastMessage` or `UnicastMessage`
+  - Name: MessageDeclined
+    Arguments: ""
+    Description: Missing Documentation
 IsStatic: true
 IsAbstract: false
 IsInstantiatable: false

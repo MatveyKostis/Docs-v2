@@ -32,8 +32,8 @@ for (const c of data.Classes) {
     let existingClassDescription = "Missing Documentation";
 
     if (fs.existsSync(yamlPath)) {
-        const existingXml = fs.readFileSync(yamlPath, "utf-8");
-        const existingData = yaml.parse(existingXml);
+        const existingYaml = fs.readFileSync(yamlPath, "utf-8");
+        const existingData = yaml.parse(existingYaml);
 
         // Preserve existing class description
         if (existingData.Description) {
@@ -117,8 +117,8 @@ for (const e of data.Enums) {
     let existingDescriptions = {};
     let existingEnumDescription = "";
     if (fs.existsSync(yamlPath)) {
-        const existingXml = fs.readFileSync(yamlPath, "utf-8");
-        const existingData = yaml.parse(existingXml);
+        const existingYaml = fs.readFileSync(yamlPath, "utf-8");
+        const existingData = yaml.parse(existingYaml);
 
         existingEnumDescription = existingData.Description || "";
 

@@ -62,8 +62,6 @@ Events:
     Description: Fires when server receives message from client
   - Name: InvokedClient
     Arguments:
-      - Name: sender
-        Type: nil
       - Name: msg
         Type: NetMessage
     Description: Fires when client receives message from server

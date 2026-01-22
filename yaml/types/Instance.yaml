@@ -68,6 +68,28 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Finds a child of this instance by class name.
+  - Name: FindChildWithTag
+    ReturnType: Instance
+    Parameters:
+      - Name: tag
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: GetChildrenWithTag
+    ReturnType: table
+    Parameters:
+      - Name: tag
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: FindAncestorByClass
     ReturnType: Instance
     Parameters:

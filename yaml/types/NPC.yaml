@@ -50,6 +50,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the offset position of the NPC's nametag.
+  - Name: NametagVisibleRadius
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: DisplayName
     Type: string
     IsAccessibleByScripts: true

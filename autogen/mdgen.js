@@ -145,7 +145,7 @@ for (const yamlFile of yamlFiles) {
     fs.writeFileSync(mdPath, mk)
 }
 
-console.log(`Converted ${yamlFiles.length} XML files to Markdown`)
+console.log(`Converted ${yamlFiles.length} YAML files to Markdown`)
 
 // Process Enums
 const yamlEnumFiles = fs.readdirSync(yamlEnumPath).filter(file => file.endsWith('.yaml'));
@@ -191,4 +191,4 @@ for (const yamlFile of yamlEnumFiles) {
     fs.writeFileSync(mdPath, mk)
 }
 
-console.log(`Converted ${yamlEnumFiles.length} enum XML files to Markdown`)
+console.log(`Converted ${yamlEnumFiles.length} enum YAML files to Markdown`)
