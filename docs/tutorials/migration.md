@@ -13,6 +13,24 @@ Tutorial on how to migrate to 2.0
 
 This is the biggest compatibility breaking change for 2.0. The transition from Lua 5.2 (Moonsharp) to Luau. One of the big change being the now non-available `goto` statements. Which you'll have to switch to `continue` statement instead.
 
+## Unique Names
+
+Each instances should now have it's own unique name, this is by design and allows for faster lookups. If you want to identify objects with t
+
+## Capitalization
+
+Functions including `_update` and `_fixedUpdate` has been capitalized. Use `_Update` and `_FixedUpdate`
+
+Fields like `Vector3.new` `Vector3.x` has also been capitalized to `Vector3.New`, `Vector3.X`
+
+## Enum Table
+
+Enums should be accessed from the global `Enums` table. for example:
+
+```lua
+Enums.PartMaterial.Brick
+```
+
 ## Tweening
 
 Tweening has been revamped in 2.0. You should create a tween object first, then tween it from there. Example:
